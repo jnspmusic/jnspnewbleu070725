@@ -22,7 +22,7 @@ const config = {
     titleEn: 'Live DJ Session',
     description: 'Rejoignez JNSP pour une session live exceptionnelle dans l\'un des clubs les plus emblématiques de Prague. Une soirée électronique inoubliable vous attend !',
     descriptionEn: 'Join JNSP for an exceptional live session in one of Prague\'s most iconic clubs. An unforgettable electronic night awaits you!',
-    status: 'a confirmer',
+    status: 'à confirmer',
     statusEn: 'to be confirmed'
   },
   // Pour modifier facilement la musique :
@@ -292,7 +292,7 @@ const App = () => {
                 <p className="text-blue-100/70 text-lg mb-8 leading-relaxed">
                   {t.events.eventDescription}
                 </p>
-                <div className="flex items-center space-x-2 text-green-400">
+                <div className="flex items-center space-x-2 text-red-400">
                   <div className="w-2 h-2 bg-red-400 rounded-full animate-pulse"></div>
                   <span className="font-semibold">{t.events.eventStatus}</span>
                 </div>
