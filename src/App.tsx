@@ -18,7 +18,7 @@ const config = {
     location: 'Karlovy lázně, Prague',
     websiteUrl: 'https://www.karlovylazne.cz/',
     // Pour modifier facilement l'événement :
-    title: 'Session Live DJ',
+    title: 'Session seb Live DJ',
     titleEn: 'Live DJ Session',
     description: 'Rejoignez JNSP pour une session live exceptionnelle dans l\'un des clubs les plus emblématiques de Prague. Une soirée électronique inoubliable vous attend !',
     descriptionEn: 'Join JNSP for an exceptional live session in one of Prague\'s most iconic clubs. An unforgettable electronic night awaits you!',
