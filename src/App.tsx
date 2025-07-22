@@ -13,15 +13,15 @@ const config = {
     email: 'jnsp@jnspmusic.com'
   },
   event: {
-    date: '15 Juillet 2025 - 23H00',
-    dateEn: 'July 15, 2025 - 11:00 PM',
-    location: 'Karlovy lázně, Prague',
-    websiteUrl: 'https://www.karlovylazne.cz/',
+    date: 'à confirmer',
+    dateEn: 'to be confirmed',
+    location: 'à confirmer',
+    websiteUrl: 'https://www.jnspmusic.com/',
     // Pour modifier facilement l'événement :
     title: 'Session Live DJ',
     titleEn: 'Live DJ Session',
-    description: 'Rejoignez JNSP pour une session live exceptionnelle dans l\'un des clubs les plus emblématiques de Prague. Une soirée électronique inoubliable vous attend !',
-    descriptionEn: 'Join JNSP for an exceptional live session in one of Prague\'s most iconic clubs. An unforgettable electronic night awaits you!',
+    description: 'Rejoignez JNSP pour une session live exceptionnelle dans l\'un des clubs les plus emblématiques . Une soirée électronique inoubliable vous attend !',
+    descriptionEn: 'Join JNSP for an exceptional live session in one of most iconic clubs. An unforgettable electronic night awaits you!',
     status: 'à confirmer',
     statusEn: 'to be confirmed'
   },
@@ -58,8 +58,8 @@ const content = {
       title: 'Actualités',
       upcomingEvent: 'Événement à venir',
       eventTitle: config.event.title,
-      eventDate: '15 Juillet 2025 - 23H00',
-      eventLocation: 'Karlovy lázně, Prague',
+      eventDate: 'à confirmer',
+      eventLocation: 'à confirmer',
       eventDescription: config.event.description,
       eventStatus: config.event.status
     },
@@ -102,8 +102,8 @@ const content = {
       title: 'News',
       upcomingEvent: 'Upcoming Event',
       eventTitle: config.event.titleEn,
-      eventDate: 'July 15, 2025 - 11:00 PM',
-      eventLocation: 'Karlovy lázně, Prague',
+      eventDate: 'à confirmer',
+      eventLocation: 'à confirmer',
       eventDescription: config.event.descriptionEn,
       eventStatus: config.event.statusEn
     },
