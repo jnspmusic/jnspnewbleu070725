@@ -219,11 +219,11 @@ const App = () => {
 
           <div className="bg-black/40 backdrop-blur-lg rounded-3xl border border-blue-800/30 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-0">
-              <div className="relative h-80 md:h-96 order-2 md:order-1">
+              <div className="relative w-full order-2 md:order-1 flex justify-center items-center bg-black p-4">
                 <img 
                   src={config.images.saveMe}
                   alt="JNSP - SAVE ME"
-                  className="w-full h-full object-cover object-center"
+                  className="max-w-full max-h-[500px] object-contain"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
               </div>
