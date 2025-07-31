@@ -27,7 +27,7 @@ const config = {
   },
   // Pour modifier facilement la musique :
   music: {
-    title: 'SAVE ME',
+    title: 'In My World',
     description: 'Le nouveau single de JNSP qui mélange des sonorités électroniques puissantes avec des mélodies envoûtantes. Une production qui capture l\'essence de la musique électronique moderne.',
     descriptionEn: 'JNSP\'s new single that blends powerful electronic sounds with captivating melodies. A production that captures the essence of modern electronic music.'
   }
@@ -102,8 +102,8 @@ const content = {
       title: 'News',
       upcomingEvent: 'Upcoming Event',
       eventTitle: config.event.titleEn,
-      eventDate: 'à confirmer',
-      eventLocation: 'à confirmer',
+      eventDate: 'to be confirmed',
+      eventLocation: 'to be confirmed',
       eventDescription: config.event.descriptionEn,
       eventStatus: config.event.statusEn
     },
