@@ -16,6 +16,7 @@ const config = {
     date: 'à confirmer',
     dateEn: 'to be confirmed',
     location: 'à confirmer',
+    locationEn: 'to be confirmed',
     websiteUrl: 'https://www.jnspmusic.com/',
     // Pour modifier facilement l'événement :
     title: 'Session Live DJ',
@@ -285,7 +286,7 @@ const App = () => {
                       rel="noopener noreferrer"
                       className="text-lg hover:text-blue-300 transition-colors underline decoration-blue-400/50 hover:decoration-blue-300"
                     >
-                      {config.event.location}
+                      {language === 'fr' ? config.event.location : config.event.locationEn}
                     </a>
                   </div>
                 </div>
