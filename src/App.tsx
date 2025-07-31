@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Play, Calendar, MapPin, Mail, Youtube, User, Disc3, Radio } from 'lucide-react';
+import { Play, Calendar, MapPin, Mail, Youtube, User, Disc3, Radio , Instagram } from 'lucide-react';
 
 // Configuration des images et liens (facilement modifiable)
 const config = {
@@ -10,6 +10,7 @@ const config = {
   links: {
     youtubeMusic: 'https://music.youtube.com/channel/UCFAKDiOFbZkd9jhMRYbP6NQ?feature=shared',
     spotify: 'https://open.spotify.com/artist/25qqFcycQizw6u2Xb80tnu?si=IvZcME41Q465arofPwpP7Q',
+    instagram: 'https://www.instagram.com/jnsp.music/',
     email: 'jnsp@jnspmusic.com'
   },
   event: {
