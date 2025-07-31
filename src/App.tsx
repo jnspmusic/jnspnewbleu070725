@@ -15,7 +15,7 @@ const config = {
   event: {
     date: 'à confirmer',
     dateEn: 'to be confirmed',
-    location: 'à confirmer',
+    location: 'to be confirmed',
     websiteUrl: 'https://www.jnspmusic.com/',
     // Pour modifier facilement l'événement :
     title: 'Session Live DJ',
