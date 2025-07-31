@@ -369,6 +369,16 @@ const App = () => {
                     <Disc3 className="h-5 w-5 text-green-400" />
                     <span>Spotify</span>
                   </a>
+                  
+                  <a 
+                    href={config.links.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 text-blue-100/80 hover:text-white transition-colors"
+                  >
+                    <Instagram className="h-5 w-5 text-pink-400" />
+                    <span>Instagram</span>
+                  </a>
                 </div>
               </div>
             </div>
