@@ -30,7 +30,7 @@ const config = {
   // Pour modifier facilement la musique :
   music: {
     title: 'In My World',
-    description: 'Nouveau single de JNSP',
+    description: '',
     descriptionEn: 'JNSP\'s new single.'
   }
 };
@@ -69,7 +69,7 @@ const content = {
       title: 'À Propos',
       artistName: 'JNSP',
       artistTitle: 'Créateur d’émotions électroniques',
-      description: 'Sébastien — JNSP Je compose sous le nom JNSP, et je mélange EDM, trance, house et sonorités orientales.Ma musique est électronique, rythmée, mais toujours guidée par l’émotion et un message humain.J’utilise l’IA comme outil, mais c’est mon cœur qui donne le tempo.',
+      description: 'Sébastien — JNSP. Je compose sous le nom JNSP, et je mélange EDM, trance, house et sonorités orientales. Ma musique est électronique, rythmée, mais toujours guidée par l’émotion et un message humain. J’utilise l’IA comme outil, mais c’est mon cœur qui donne le tempo.',
       findOn: 'Retrouvez JNSP sur :'
     },
     contact: {
@@ -128,7 +128,8 @@ const content = {
 };
 
 const App = () => {
-  const [language, setLanguage] = useState<'fr' | 'en'>('fr');
+  const userLang = navigator.language.startsWith('fr') ? 'fr' : 'en';
+  const [language, setLanguage] = useState<'fr' | 'en'>(userLang);
   const t = content[language];
 
   const setLanguageToFr = () => setLanguage('fr');
