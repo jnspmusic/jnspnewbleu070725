@@ -22,16 +22,16 @@ const config = {
     // Pour modifier facilement l'événement :
     title: 'Session Live DJ',
     titleEn: 'Live DJ Session',
-    description: 'Rejoignez JNSP pour une session live exceptionnelle dans l\'un des clubs les plus emblématiques . Une soirée électronique inoubliable vous attend !',
-    descriptionEn: 'Join JNSP for an exceptional live session in one of most iconic clubs. An unforgettable electronic night awaits you!',
+    description: 'Rejoignez JNSP pour une session live exceptionnelle dans l\'un des clubs les plus emblématiques .',
+    descriptionEn: 'Join JNSP for an exceptional live session in one of most iconic clubs.',
     status: 'à confirmer',
     statusEn: 'to be confirmed'
   },
   // Pour modifier facilement la musique :
   music: {
     title: 'In My World',
-    description: 'Le nouveau single de JNSP qui mélange des sonorités électroniques puissantes avec des mélodies envoûtantes. Une production qui capture l\'essence de la musique électronique moderne.',
-    descriptionEn: 'JNSP\'s new single that blends powerful electronic sounds with captivating melodies. A production that captures the essence of modern electronic music.'
+    description: 'Nouveau single de JNSP',
+    descriptionEn: 'JNSP\'s new single.'
   }
 };
 
@@ -46,7 +46,7 @@ const content = {
       contact: 'Contact'
     },
     hero: {
-      subtitle: 'DJ & Producteur Musique Électronique',
+      subtitle: 'Créateur d’émotions électroniques',
       listenButton: 'Écouter'
     },
     music: {
@@ -68,8 +68,11 @@ const content = {
     about: {
       title: 'À Propos',
       artistName: 'JNSP',
-      artistTitle: 'DJ & Producteur Musique Électronique',
-      description: 'JNSP est un artiste passionné qui évolue dans l\'univers de la musique électronique. En tant que DJ et producteur, il crée des compositions uniques qui mélangent innovation sonore et émotion pure.',
+      artistTitle: 'Créateur d’émotions électroniques',
+      description: 'Sébastien — JNSP
+Je compose sous le nom JNSP, et je mélange EDM, trance, house et sonorités orientales.
+Ma musique est électronique, rythmée, mais toujours guidée par l’émotion et un message humain.
+J’utilise l’IA comme outil, mais c’est mon cœur qui donne le tempo.',
       findOn: 'Retrouvez JNSP sur :'
     },
     contact: {
@@ -90,7 +93,7 @@ const content = {
       contact: 'Contact'
     },
     hero: {
-      subtitle: 'DJ & Electronic Music Producer',
+      subtitle: 'Emotional electronic music creator',
       listenButton: 'Listen'
     },
     music: {
@@ -112,8 +115,11 @@ const content = {
     about: {
       title: 'About',
       artistName: 'JNSP',
-      artistTitle: 'DJ & Electronic Music Producer',
-      description: 'JNSP is a passionate artist who evolves in the electronic music universe. As a DJ and producer, he creates unique compositions that blend sound innovation with pure emotion.',
+      artistTitle: 'Emotional electronic music creator',
+      description: 'Sébastien — JNSP
+I produce electronic music blending EDM, trance, house, and oriental textures.
+My tracks are energetic and emotional, guided by the human touch.
+I use AI as a tool, but it's emotion that drives the beat.',
       findOn: 'Find JNSP on:'
     },
     contact: {
