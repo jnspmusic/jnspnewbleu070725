@@ -69,10 +69,7 @@ const content = {
       title: 'À Propos',
       artistName: 'JNSP',
       artistTitle: 'Créateur d’émotions électroniques',
-      description: 'Sébastien — JNSP
-Je compose sous le nom JNSP, et je mélange EDM, trance, house et sonorités orientales.
-Ma musique est électronique, rythmée, mais toujours guidée par l’émotion et un message humain.
-J’utilise l’IA comme outil, mais c’est mon cœur qui donne le tempo.',
+      description: 'Sébastien — JNSP Je compose sous le nom JNSP, et je mélange EDM, trance, house et sonorités orientales.Ma musique est électronique, rythmée, mais toujours guidée par l’émotion et un message humain.J’utilise l’IA comme outil, mais c’est mon cœur qui donne le tempo.',
       findOn: 'Retrouvez JNSP sur :'
     },
     contact: {
@@ -116,10 +113,7 @@ J’utilise l’IA comme outil, mais c’est mon cœur qui donne le tempo.',
       title: 'About',
       artistName: 'JNSP',
       artistTitle: 'Emotional electronic music creator',
-      description: 'Sébastien — JNSP
-I produce electronic music blending EDM, trance, house, and oriental textures.
-My tracks are energetic and emotional, guided by the human touch.
-I use AI as a tool, but it's emotion that drives the beat.',
+      description: 'Sébastien — JNSP I produce electronic music blending EDM, trance, house, and oriental textures.My tracks are energetic and emotional, guided by the human touch.I use AI as a tool, but it's emotion that drives the beat.',
       findOn: 'Find JNSP on:'
     },
     contact: {
