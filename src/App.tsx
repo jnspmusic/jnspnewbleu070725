@@ -29,7 +29,7 @@ const config = {
   },
   // Pour modifier facilement la musique :
   music: {
-    title: 'In My World',
+    title: 'Wake Up',
     description: '',
     descriptionEn: 'JNSP\'s new single.'
   }
