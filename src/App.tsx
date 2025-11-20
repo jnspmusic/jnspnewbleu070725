@@ -29,7 +29,7 @@ const config = {
   },
   // Pour modifier facilement la musique :
   music: {
-    title: 'Just a Little More Time',
+    title: 'Just a Little Time',
     description: '',
     descriptionEn: 'JNSP\'s new single.'
   }
