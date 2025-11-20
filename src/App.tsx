@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Play, Calendar, MapPin, Mail, Youtube, User, Disc3, Radio , Instagram } from 'lucide-react';
+import { Play, Calendar, MapPin, Mail, Youtube, User, Disc3, Radio, Instagram } from 'lucide-react';
 
 // Configuration des images et liens (facilement modifiable)
 const config = {
@@ -22,7 +22,7 @@ const config = {
     // Pour modifier facilement l'événement :
     title: 'Session Live DJ',
     titleEn: 'Live DJ Session',
-    description: 'Rejoignez JNSP pour une session live exceptionnelle dans l\'un des clubs les plus emblématiques .',
+    description: "Rejoignez JNSP pour une session live exceptionnelle dans l'un des clubs les plus emblématiques .",
     descriptionEn: 'Join JNSP for an exceptional live session in one of most iconic clubs.',
     status: 'à confirmer',
     statusEn: 'to be confirmed'
@@ -30,8 +30,10 @@ const config = {
   // Pour modifier facilement la musique :
   music: {
     title: 'Just a Little More Time',
-    description: '',
-    descriptionEn: 'JNSP\'s new single.'
+    description:
+      'Nouveau single de JNSP, entre EDM 80s et house progressive, avec une énergie profonde et émotionnelle.',
+    descriptionEn:
+      "JNSP's new single, blending 80s-inspired EDM and progressive house with deep emotional energy."
   }
 };
 
@@ -69,13 +71,15 @@ const content = {
       title: 'À Propos',
       artistName: 'JNSP',
       artistTitle: 'Créateur d’émotions électroniques',
-      description: 'Sébastien — JNSP. Je compose sous le nom JNSP, et je mélange EDM, trance, house et sonorités orientales. Ma musique est électronique, rythmée, mais toujours guidée par l’émotion et un message humain. J’utilise l’IA comme outil, mais c’est mon cœur qui donne le tempo.',
+      description:
+        'Je m’appelle Sébastien et je produis sous le nom JNSP. Ma musique voyage entre EDM 80s, house progressive et trance, avec de grosses basses, des mélodies profondes et une énergie de club. Chaque morceau est pensé pour transmettre des émotions, donner de la force, de l’espoir et offrir un vrai moment d’évasion.',
       findOn: 'Retrouvez JNSP sur :'
     },
     contact: {
       title: 'Contact',
       subtitle: 'Restons en Contact',
-      description: 'Pour toute demande de booking, collaboration ou information, n\'hésitez pas à me contacter directement.'
+      description:
+        "Pour toute demande de booking, collaboration ou information, n'hésitez pas à me contacter directement."
     },
     footer: {
       copyright: 'Tous droits réservés.'
@@ -113,13 +117,15 @@ const content = {
       title: 'About',
       artistName: 'JNSP',
       artistTitle: 'Emotional electronic music creator',
-      description: "Sébastien – JNSP. I produce electronic music blending EDM, trance, house, and oriental textures. My tracks are energetic and emotional, guided by the human touch. I use AI as a tool, but it's emotion that drives the beat.",
+      description:
+        "I’m Sébastien, producing music as JNSP. My sound moves between 80s-inspired EDM, progressive house and trance, with heavy basslines, deep melodies and a strong club energy. Each track is crafted to carry emotion, bring strength and hope, and offer a true moment of escape.",
       findOn: 'Find JNSP on:'
     },
     contact: {
       title: 'Contact',
-      subtitle: 'Let\'s Stay in Touch',
-      description: 'For any booking requests, collaborations or information, feel free to contact me directly.'
+      subtitle: "Let's Stay in Touch",
+      description:
+        'For any booking requests, collaborations or information, feel free to contact me directly.'
     },
     footer: {
       copyright: 'All rights reserved.'
@@ -142,18 +148,28 @@ const App = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#home" className="text-blue-200/80 hover:text-blue-200 transition-colors">{t.nav.home}</a>
-              <a href="#music" className="text-blue-200/80 hover:text-blue-200 transition-colors">{t.nav.music}</a>
-              <a href="#events" className="text-blue-200/80 hover:text-blue-200 transition-colors">{t.nav.events}</a>
-              <a href="#about" className="text-blue-200/80 hover:text-blue-200 transition-colors">{t.nav.about}</a>
-              <a href="#contact" className="text-blue-200/80 hover:text-blue-200 transition-colors">{t.nav.contact}</a>
+              <a href="#home" className="text-blue-200/80 hover:text-blue-200 transition-colors">
+                {t.nav.home}
+              </a>
+              <a href="#music" className="text-blue-200/80 hover:text-blue-200 transition-colors">
+                {t.nav.music}
+              </a>
+              <a href="#events" className="text-blue-200/80 hover:text-blue-200 transition-colors">
+                {t.nav.events}
+              </a>
+              <a href="#about" className="text-blue-200/80 hover:text-blue-200 transition-colors">
+                {t.nav.about}
+              </a>
+              <a href="#contact" className="text-blue-200/80 hover:text-blue-200 transition-colors">
+                {t.nav.contact}
+              </a>
             </div>
             <div className="flex items-center space-x-2">
               <button
                 onClick={setLanguageToFr}
                 className={`px-3 py-1 rounded-full text-sm font-semibold transition-colors ${
-                  language === 'fr' 
-                    ? 'bg-blue-600 text-white' 
+                  language === 'fr'
+                    ? 'bg-blue-600 text-white'
                     : 'bg-blue-500/20 text-blue-200/80 hover:text-blue-200'
                 }`}
               >
@@ -162,8 +178,8 @@ const App = () => {
               <button
                 onClick={setLanguageToEn}
                 className={`px-3 py-1 rounded-full text-sm font-semibold transition-colors ${
-                  language === 'en' 
-                    ? 'bg-blue-600 text-white' 
+                  language === 'en'
+                    ? 'bg-blue-600 text-white'
                     : 'bg-blue-500/20 text-blue-200/80 hover:text-blue-200'
                 }`}
               >
@@ -184,7 +200,7 @@ const App = () => {
         </div>
 
         <div className="relative text-center max-w-4xl mx-auto">
-          {/* Main Title - Logo JNSP plus gros et blanc sans effet lumineux */}
+          {/* Main Title - Logo JNSP */}
           <h1 className="text-8xl sm:text-9xl md:text-[10rem] lg:text-[14rem] font-black text-white mb-8 tracking-tight leading-none">
             JNSP
           </h1>
@@ -196,7 +212,7 @@ const App = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <a 
+            <a
               href={config.links.youtubeMusic}
               target="_blank"
               rel="noopener noreferrer"
@@ -223,9 +239,9 @@ const App = () => {
           <div className="bg-black/40 backdrop-blur-lg rounded-3xl border border-blue-800/30 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-0">
               <div className="relative w-full order-2 md:order-1 flex justify-center items-center bg-black p-4">
-                <img 
+                <img
                   src={config.images.saveMe}
-                  alt="JNSP - SAVE ME"
+                  alt={`JNSP - ${config.music.title} cover`}
                   className="max-w-full max-h-[500px] object-contain"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
@@ -236,11 +252,9 @@ const App = () => {
                   <span className="text-blue-300 font-semibold">{t.music.newSingle}</span>
                 </div>
                 <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">{t.music.trackTitle}</h3>
-                <p className="text-blue-100/70 text-lg mb-8 leading-relaxed">
-                  {t.music.description}
-                </p>
+                <p className="text-blue-100/70 text-lg mb-8 leading-relaxed">{t.music.description}</p>
                 <div className="flex space-x-4">
-                  <a 
+                  <a
                     href={config.links.youtubeMusic}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -278,11 +292,13 @@ const App = () => {
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center space-x-3 text-blue-100/80">
                     <Calendar className="h-5 w-5 text-blue-400" />
-                    <span className="text-lg">{language === 'fr' ? config.event.date : config.event.dateEn}</span>
+                    <span className="text-lg">
+                      {language === 'fr' ? config.event.date : config.event.dateEn}
+                    </span>
                   </div>
                   <div className="flex items-center space-x-3 text-blue-100/80">
                     <MapPin className="h-5 w-5 text-blue-400" />
-                    <a 
+                    <a
                       href={config.event.websiteUrl}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -292,16 +308,14 @@ const App = () => {
                     </a>
                   </div>
                 </div>
-                <p className="text-blue-100/70 text-lg mb-8 leading-relaxed">
-                  {t.events.eventDescription}
-                </p>
+                <p className="text-blue-100/70 text-lg mb-8 leading-relaxed">{t.events.eventDescription}</p>
                 <div className="flex items-center space-x-2 text-red-400">
                   <div className="w-2 h-2 bg-red-400 rounded-full animate-pulse"></div>
                   <span className="font-semibold">{t.events.eventStatus}</span>
                 </div>
               </div>
               <div className="relative h-80 md:h-96">
-                <img 
+                <img
                   src={config.images.eventImage}
                   alt="DJ Event with Crowd"
                   className="w-full h-full object-cover"
@@ -342,17 +356,15 @@ const App = () => {
             <div className="text-center space-y-6">
               <h3 className="text-2xl md:text-3xl font-bold text-white">{t.about.artistName}</h3>
               <p className="text-xl text-blue-300 font-semibold">{t.about.artistTitle}</p>
-              
+
               <div className="max-w-2xl mx-auto">
-                <p className="text-blue-100/80 text-lg leading-relaxed">
-                  {t.about.description}
-                </p>
+                <p className="text-blue-100/80 text-lg leading-relaxed">{t.about.description}</p>
               </div>
 
               <div className="pt-8">
                 <p className="text-blue-100/60 mb-4">{t.about.findOn}</p>
                 <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-                  <a 
+                  <a
                     href={config.links.youtubeMusic}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -361,7 +373,7 @@ const App = () => {
                     <Youtube className="h-5 w-5 text-red-400" />
                     <span>YouTube Music</span>
                   </a>
-                  <a 
+                  <a
                     href={config.links.spotify}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -370,8 +382,8 @@ const App = () => {
                     <Disc3 className="h-5 w-5 text-green-400" />
                     <span>Spotify</span>
                   </a>
-                  
-                  <a 
+
+                  <a
                     href={config.links.instagram}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -409,11 +421,9 @@ const App = () => {
             </div>
 
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">{t.contact.subtitle}</h3>
-            <p className="text-blue-100/70 text-lg mb-8 max-w-2xl mx-auto">
-              {t.contact.description}
-            </p>
+            <p className="text-blue-100/70 text-lg mb-8 max-w-2xl mx-auto">{t.contact.description}</p>
 
-            <a 
+            <a
               href={`mailto:${config.links.email}`}
               className="inline-flex items-center space-x-3 bg-gradient-to-r from-blue-700 to-blue-800 hover:from-blue-800 hover:to-blue-900 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-xl"
             >
@@ -430,9 +440,7 @@ const App = () => {
           <div className="flex items-center justify-center space-x-2 mb-4">
             <span className="text-xl font-bold text-blue-200">JNSP</span>
           </div>
-          <p className="text-blue-200/40 text-sm">
-            &copy; 2025 JNSP Music. {t.footer.copyright}
-          </p>
+          <p className="text-blue-200/40 text-sm">&copy; 2025 JNSP Music. {t.footer.copyright}</p>
         </div>
       </footer>
     </div>
